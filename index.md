@@ -8,4 +8,5 @@ There will be four blog posts/updates with the following due dates:
 * 31 Oct 2023
 
 Random editorial assistance will be rendered by Eddie and Rocky.
-  [[C:/Users/Office/Desktop/NCSU Fall 2023/Rocky and Eddie.jpg]]
+
+![Rocky and Eddie](https://github.com/nc-callender/nc-callender.github.io/assets/143463411/fad47d72-ac84-4151-af48-6bcc95a0acf8)
