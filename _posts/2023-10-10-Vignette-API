@@ -1,6 +1,6 @@
-## Project 2- Vignette Assignment
+# Project 2- Vignette Assignment
 
-## Project
+# Project
 
 The assignment was to select an API (application programming interface), build functions to pull different types of data from the API, and then do some exploratory data analysis.  I chose to pull data from the Center for Disease Control and Prevention relating to Vaccination Coverage among Adolescents.  
 
@@ -15,7 +15,7 @@ As a kid, no-one in our community had well-child visits; but one day during the 
 - or just the ones required for public school attendance  
 
 
-## Progrmamming
+# Progrmamming
 
 For this assignment, I found particular challenges in doing the check input coding.  Several of my functions involved filtering for a state of interest, or vaccine of interest.  If nothing was entered for an option, then I wanted to return all states or all vaccines.  So, the input could be null or an item in a list.  It took a while to learn that those two things could not be checked in a single if statement; it had to check for null and then if not null check to see if it is in a list.  
 
@@ -24,7 +24,9 @@ In making tables, it was a process to learn how to give things labels so that co
 In making graphs, I made lots of new types of graphs.  Several were challenging.  I found making the map hard but was not surprised by it.  I was surprised at how hard it was to make a scatter plot with the dots-connected (overlaid line plot); I am used to that being very easy (yay Excel! And Quattro and Kaleidagraph).   I was also surprised by how much harder it is to make a single box plot compared to making a series of box plots.
 With regard to learning for overall approach, I would do a deeper investigation of the data before starting to write functions.  I did use unique on all the columns to get possible values.  But I was not thorough enough to realize which were only based on entries in other columns.  I tried to make tables only to find out they were empty.  
 
-## Links
+# Links
 [Rendered Github](https://github.com/nc-callender/ST558-Project2#readme)
+https://github.com/nc-callender/ST558-Project2#readme
 [Repository](https://github.com/nc-callender/ST558-Project2)
+https://github.com/nc-callender/ST558-Project2
 
