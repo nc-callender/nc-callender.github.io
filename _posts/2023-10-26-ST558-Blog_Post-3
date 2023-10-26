@@ -1,0 +1,23 @@
+# ST 558 Blog Post 3
+
+
+# Assignment 
+
+This assignment focused on variable selection and transformation techniques. Background material was read and used to answer a series of proposed questions.
+
+# Background Material
+The following articles were used as a reference for this assignment:  
+
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5969114/  
+https://www.biostat.jhsph.edu/~iruczins/teaching/jf/ch10.pdf  
+https://link.springer.com/content/pdf/10.1057/jt.2009.26.pdf 
+
+# Issues to be Addressed  
+ Write a brief discussion of how one would would plan to determine variables for use in regression model.   
+ What variable selection technique do you prefer and why?
+
+# How One Might Plan
+A first step could be discussion with a subject matter expert to determine the relationships between the independent variables and possibly to prepare a directed acyclic graph. This helps identify confounders, mediators and colliders. Confounders should be included in the model while mediators and colliders should not. After this Exploratory Data Analysis (EDA)  could be used to determine which variables are strongly related to the parameter of interest and should definitly be included in the model.  EDA may also identify closely related pairs (redundant variables) that should not appear together in the model.  Further it may identify skewed variables that may require transformation prior to fitting.  Since more variables require more dating for fitting,  events-per-variable (EPV) need to be considered 
+
+# Variable Selection Technique
+In the top reference above, Heinz, Wallisch, and Dunkler make a compelling argument for choosing backward elimination with AIC as the stopping criteria in most situations.  They also argue for stability testing with reporting of  boostrap inclusion frequencies.  Given a lack of personal experience, I would substitute their judgment for mine.
